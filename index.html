@@ -342,26 +342,36 @@ Existe una común denominador cuando hablo divertirse  y es sencillo todos los q
   <p> Whatsapp: <a href="https://api.whatsapp.com/send?phone=523322784595" target="_blank" rel="noopener noreferrer">+52 1 33 227 84595</a></p>
 
                 </div>
+                <form action="enviar.php" method="post"> 
                 <div class="col-md-6 mt-4">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="Nombre">
+                                <input type="text" name="nombre" class="form-control" id="" placeholder="Nombre"
+                                required>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="Apellido">
+                                <input type="text" name="nombre" class="form-control" id="" placeholder="Apellido"
+                                required>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="" placeholder="Gmail">
+                                <input type="email" name="correo" class="form-control" id="" placeholder="Gmail"
+                                required>
+                            </div>
+                        </div>
+                         <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea name="mensaje" class="form-control" id="" placeholder="Mensaje"
+                                required></textarea>
                             </div>
                         </div>
                        
                         <div class="col-md-12">
-                            <a href="" class="btn btn-primary full-width">Contactar</a>
+                           <input type="submit" name=""> <a href="" class="btn btn-primary full-width">Contactar</a>
                         </div>
                     </div>
                 </div>
