@@ -5,7 +5,7 @@ $correo = $_POST["correo"]
 $mensaje = $_POST["mensaje"]
 $contenido = "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nMensaje: " . $mensaje;
 
-mail("apoloholaqase@gmail.com","Contacto", $contenido);
+mail("a16100653@ceti.mx","Contacto", $contenido);
 header("Location:index.html")
 
 
