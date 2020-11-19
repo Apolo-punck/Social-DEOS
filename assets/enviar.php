@@ -20,5 +20,5 @@ $asunto = 'Social DEOS';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
-header("Location:index.html");
+header("Location:https://apolo-punck.github.io/Social-DEOS/#contact");
 ?>
